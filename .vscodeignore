@@ -9,3 +9,7 @@ vsc-extension-quickstart.md
 **/*.map
 **/*.ts
 **/.vscode-test.*
+ai/**
+steps.ipynb
+node_modules/**
+Instructions.md
