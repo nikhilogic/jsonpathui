@@ -17,7 +17,16 @@ Allows to use JsonPath queries on active json files in VsCode and displays resul
 
 ## Release Notes
 
-### 1.0.0
+### 0.0.1
 
 Initial release of JsonPathEditor
+
+### 0.0.2
+
+Handling enter key press
+
+### 0.0.3
+Added Copy to Clipboard feature
+Theme changed to dark
+UI elements rearranged
 

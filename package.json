@@ -2,7 +2,7 @@
   "name": "jsonpatheditor",
   "displayName": "JsonPath Editor",
   "description": "Allows you to preview the result of a JSONPath expression in a new editor",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "nikhilogic",
   "repository": {
     "type": "git",
