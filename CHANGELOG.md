@@ -1,10 +1,6 @@
 # Change Log
 
-All notable changes to the "jsonpatheditor" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## [0.0.1]
 
 - Initial release
 
@@ -13,3 +9,17 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 ### Fixed
 
 - Controls disappear after hitting enter in input box
+
+## [0.0.3] - 2025-03-20
+
+### Fixed
+
+- Handling enter key press
+
+## [0.0.4] - 2025-04-09
+
+### Added
+
+- Added Copy to Clipboard feature
+- Theme changed to dark
+- UI elements rearranged
