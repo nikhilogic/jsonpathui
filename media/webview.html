@@ -104,7 +104,17 @@
 
             jsonPathInput.addEventListener('input', () => {
                 const jsonPath = jsonPathInput.value;
-                vscode.postMessage({ jsonPath });
+                vscode.postMessage({ type: 'jsonPathInput', text: jsonPath });
+            });
+
+            jsonOutput.addEventListener('click', (event) => {
+                // Check if the clicked element is a text node
+
+                const selection = window.getSelection();
+                const clickedText = selection.toString(); // Get the clicked text
+
+                // Send the clicked text back to the VS Code extension
+                vscode.postMessage({ type: 'clickedJsonOutputText', text: clickedText });
             });
 
             window.addEventListener('message', event => {

@@ -51,7 +51,15 @@ export function setupPanel(context: vscode.ExtensionContext) {
   panel.webview.onDidReceiveMessage(
     message => {
       console.log('Received message from webview:', message);
-      updateJsonResult(message.jsonPath);
+      if (message.type === 'jsonPathInput') {
+
+        updateJsonResult(message.text);
+      }
+      else if (message.type === 'clickedJsonOutputText') {
+        const clickedText = message.text;
+        console.log('Clicked Json Output Text:', clickedText);
+        // vscode.window.showInformationMessage(`JsonPath: ${clickedText}`);
+      }
     },
     undefined,
     context.subscriptions

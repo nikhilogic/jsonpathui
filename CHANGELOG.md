@@ -23,3 +23,9 @@
 - Added Copy to Clipboard feature
 - Theme changed to dark
 - UI elements rearranged
+
+## [0.0.5] - 2025-04-16
+
+### Fixed
+
+- Added missing dependencies
